@@ -2,11 +2,15 @@ com/sjsu/cmpe282/util/DatabaseUtil.class
 com/sjsu/cmpe282/repository/ICustomerRepository.class
 com/sjsu/cmpe282/exception/GlobalControllerExceptionHandler.class
 com/sjsu/cmpe282/service/ICustomerService.class
+com/sjsu/cmpe282/rabbitmq/RabbitMqConfiguration.class
 com/sjsu/cmpe282/exception/RecordNotFoundException.class
+com/sjsu/cmpe282/rabbitmq/TaskProducer.class
 com/sjsu/cmpe282/repository/CustomerRepository.class
 com/sjsu/cmpe282/controller/CustomerController.class
 com/sjsu/cmpe282/CustomerMicroserviceApplication.class
+com/sjsu/cmpe282/rabbitmq/TaskMessage.class
 com/sjsu/cmpe282/service/CustomerService.class
+com/sjsu/cmpe282/rabbitmq/TaskProducerConfiguration.class
 com/sjsu/cmpe282/controller/IBaseRestController.class
 com/sjsu/cmpe282/model/Customer.class
 com/sjsu/cmpe282/exception/ServiceException.class

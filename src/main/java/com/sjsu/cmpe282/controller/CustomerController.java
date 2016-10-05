@@ -23,5 +23,11 @@ public class CustomerController {
 		System.out.println("Reached the controller!!");
 		return customerService.createCustomer(customer);
 	}
+	
+	@RequestMapping(value = "/auth", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
+	@ResponseStatus(HttpStatus.OK)
+	public boolean authenticateUser(@RequestBody Customer customer) {
+		return customerService.authenticateUser(customer);
+	}
 
 }
